@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CircularShapeAppearance" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">60dp</item> <!-- Ajusta este valor para cambiar el tamaño del círculo -->
+    </style>
+
+</resources>

@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "986310598622",
+    "firebase_url": "https://proyect-a4a4e-default-rtdb.firebaseio.com",
+    "project_id": "proyect-a4a4e",
+    "storage_bucket": "proyect-a4a4e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:986310598622:android:05fe0f1188744c672a474f",
+        "android_client_info": {
+          "package_name": "com.utvt.stockyng"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1qDweQYx43LFkUVJn1OoJlAWcGq-Vsc8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:cardCornerRadius="35dp"
+    app:cardElevation="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@drawable/lavender_border"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/dialog_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Agregar Usuario"
+            android:textSize="30sp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"
+            android:gravity="center" />
+
+        <!-- Encabezado para Nombre de usuario -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="4dp" />
+        <EditText
+            android:id="@+id/user_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ingrese el nombre"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/lavender_border"
+            android:padding="12dp"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <!-- Encabezado para Correo electrónico del usuario -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Correo electrónico"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="4dp" />
+        <EditText
+            android:id="@+id/user_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ingrese el correo electrónico"
+            android:inputType="textEmailAddress"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/lavender_border"
+            android:padding="12dp"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <!-- Encabezado para Nombre de usuario -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre de usuario"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="4dp" />
+        <EditText
+            android:id="@+id/user_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ingrese el nombre de usuario"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/lavender_border"
+            android:padding="12dp"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <!-- Encabezado para Role del usuario -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Role del usuario"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="4dp" />
+        <EditText
+            android:id="@+id/user_role"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ingrese el role del usuario"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/lavender_border"
+            android:padding="12dp"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <!-- Encabezado para Contraseña del usuario -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contraseña"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="4dp" />
+        <EditText
+            android:id="@+id/user_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ingrese la contraseña"
+            android:inputType="textPassword"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/lavender_border"
+            android:padding="12dp"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <!-- Botón para agregar usuario -->
+        <Button
+            android:id="@+id/add_user_dialog_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Agregar Usuario"
+            android:backgroundTint="#373434"
+            android:textColor="@android:color/white"
+            android:padding="12dp"
+            android:textSize="18sp"
+            android:elevation="4dp"
+            android:layout_marginTop="16dp" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
